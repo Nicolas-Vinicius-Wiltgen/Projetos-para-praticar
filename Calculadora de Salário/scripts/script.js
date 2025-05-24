@@ -23,12 +23,12 @@ function calcular(){
 
     /*Saída de dados:*/ 
     if(valetrue.checked){
-        document.getElementById("resultadomarmita").textContent= "O valor das marmitas é de R$"+ valorfinalmarmita.toFixed(2);
-        document.getElementById("resultado").textContent= "O seu salário com todos os descontos será de R$" + salariofinal.toFixed(2);
+        document.getElementById("resultadomarmita").textContent= "O valor das marmitas é de R$"+ valorfinalmarmita.toFixed(2).replace(".", ",");
+        document.getElementById("resultado").textContent= "O seu salário com todos os descontos será de R$" + salariofinal.toFixed(2).replace(".", ",");
     }
     else{
-        document.getElementById("resultadomarmita").textContent= "O valor das marmitas é de R$"+ valorfinalmarmita.toFixed(2);
-        document.getElementById("resultado").textContent= "O seu salário com todos os descontos será de R$" + salario.toFixed(2);
+        document.getElementById("resultadomarmita").textContent= "O valor das marmitas é de R$"+ valorfinalmarmita.toFixed(2).replace(".", ",");
+        document.getElementById("resultado").textContent= "O seu salário com todos os descontos será de R$" + salario.toFixed(2).replace(".", ",");
     }
 
     
