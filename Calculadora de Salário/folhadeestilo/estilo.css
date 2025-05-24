@@ -1,0 +1,88 @@
+/*CSS reset:*/
+*{
+    padding: 0%;
+    margin: 0%;
+    border: 0%;
+    text-decoration: none;
+}
+/*Define as configurações gerais da página:*/
+body{
+    background-color: darkslategray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    line-height: 2.0;
+}
+/*Cabeçalho:*/
+header {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    background: linear-gradient(180deg, rgb(6, 76, 97), darkslategray);
+    color: azure;
+    font-size: 40px;
+}
+/*Separa o conteúdo principal do cabeçalho:*/
+main {
+    margin-top: 20px;
+}
+/*Alinha o conteúdo dentro das seções*/
+section{
+   text-align: center;
+}
+/*Configura os textos das caixas de textos:*/
+main section label{
+    display: block;
+    color: azure;
+    font-size: 30px;
+    margin-top: 20px;
+}
+/*Configura as caixas de textos:*/
+main section input{
+    border-radius: 5px;
+    font-size: 20px;
+    color: azure;
+    background-color: black;
+    text-align: center;
+}
+/*Configura a caixa de seleção:*/
+input[type="checkbox"]{
+    width: 25px; /* Define a largura do checkbox */
+    height: 25px; /* Define a altura do checkbox */
+}
+/*Configura o botão*/
+main section button{
+    margin-top: 30px;
+    font-size: 25px;
+    position: absolute;
+      top: 60%; /* Posição vertical */
+      left: 50%; /* Posição horizontal centralizada */
+    transform: translate(-50%, -50%);
+}
+/*Faz com que ao passar o mouse em cima do botão ele mude de cor:*/
+main section button:hover{
+    color: yellow;
+}
+/*Configura o parágrafo que será gerado pelo resultado dos cálculos:*/
+#resultado{
+   position: absolute;
+     top: 73%;
+     left: 2%;
+    font-size: 25px;
+    color: azure;
+}
+/*Configura o parágrafo que será gerado pelo resultado dos cálculos:*/
+#resultadomarmita{
+     position: absolute;
+     top: 69%;
+     left: 2%;
+    font-size: 25px;
+    color: azure;
+}
+/*Configura o rodapé*/
+footer{
+    position: absolute;
+     top: 96%;
+     left: 44%;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.5)
+}

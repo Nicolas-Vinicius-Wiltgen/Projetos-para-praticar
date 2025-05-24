@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Título da guia da página:-->
+    <title>Calculadora de Salário 2.0</title>
+    <!--Links do CSS e do JavaScript:-->
+    <link rel="stylesheet" href="folhadeestilo/estilo.css">
+    <script src="scripts/script.js"></script>
+</head>
+<body>
+    <header>
+        <!--Título da página:-->
+        <h1>Calculadora de Salário</h1>
+    </header>
+
+    <main>
+        <section>
+            <!--Espaço para digitar o valor da hora:-->
+            <label for="valordahora">Valor recebido por hora:</label>
+            <input type="number" id="valordahora">
+            <!--Espaço para digitar os dias trabalhados:-->
+            <label for="diastrabalhados">Dias trabalhados no mês:</label>
+            <input type="number" id="diastrabalhados">
+            <!--Espaço para digitar a quantidade de domingos, feriados e atestados:-->
+            <label for="domingos">Quantos domingos, feriados ou dias de atestado há no mês ?</label>
+            <input type="number" id="domingos">
+            <!--Caixa de seleção:-->
+            <!--Espaço para digitar as marmitas:-->
+            <label for="marmita">Número de marmita:</label>
+            <input type="number" id="marmita">    
+            <!--Caixa de seleção:-->
+            <label for="vales">Pegou vale?</label>
+            <input type="checkbox" id="vales">      
+            <!--Botão para enviar as informações, calcular e enviar os resultados de volta:-->
+            <button onclick="calcular()">Calcular</button>
+            <!--Parágrafo onde o resultado é exibido:-->
+            <p id="resultadomarmita"></p>
+            <!--Parágrafo onde o resultado é exibido:-->
+            <p id="resultado"></p>
+        </section>
+    <footer>
+        <!--Cria o rodapé da página-->
+        &copy; 2025 Todos os direitos rerservados | Criado por: Nicolas 
+    </footer>
+    </main>    
+</body>
+</html>
